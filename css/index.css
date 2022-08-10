@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,700;1,500&display=swap');
+
+/* VARIABLES */
+:root{
+    
+    /*Pallete*/
+    --primary: #ccb38d;
+    --secondary: #EBDFCD ;
+    --accent: #000000 ;
+    --alternative: #5D0C1D;
+    --alternative-dark: #430a20; 
+
+    /* Font-family */
+    --text-base: 'Barlow Condensed', sans-serif;
+
+    /* Font-sizes*/
+    --text-xl: 48px;
+    --text-lg: 30px;
+    --text-md: 20px;
+    --text-sm: 18px;
+    --text-xs: 12px;
+
+    /* Spacings */
+    --spacing-xl: 40px;
+    --spacing-lg: 36px;
+    --spacing-md: 24px;
+    --spacing-sm: 20px;
+    --spacing-xs: 10px;
+}
+/* Normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+   font-family: var(--text-base);
+   color: var(--accent);
+   background-color: var(--secondary);
+}
+
+img{
+    width: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Helpers*/
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+
+/* Header */
+
+.main-header{
+    padding: 2rem;
+    background-color: var(--secondary);
+}
+
+.main-header__logo{
+    display: flex;
+    max-width: 200px;
+    min-width: 200px;
+    margin:auto;
+	text-align:center;
+}
+
+/* Menu */
+
+.main-header{
+    font-weight:normal;
+    text-align: right;
+}
+
+.main-header__nav ul li{
+    display: inline;
+    text-align: right;
+}
+
+.main-header__nav ul li a{
+    background-color: var(--alternative);
+    color: var(--secondary);
+    padding: var(--spacing-xs);
+    font-size: var(--text-xs);
+}
+
+.menu__link{
+    transition: all .3s;
+}
+.menu__link:hover{
+    background-color: var(--secondary);
+    color: var(--alternative);
+}
+
+/* Slider */
+
+.slider{
+    display: flex;
+    max-width: 600px;
+    min-width: 600px;
+    max-height: 300px;
+    min-height: 300px;
+    margin:auto;
+	text-align:center;
+}
+
+/* Cards */
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+    margin-left: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+    margin-right: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+.card{
+    flex: 1 1 250px;
+}
+
+.card div{
+    padding: var(--spacing-xs);
+    text-align: center;
+    font-size: var(--text-md);
+}
+
+.card__title__1{
+    font-weight: normal;
+    display: inline-block;
+    font-size: var(--text-sm);
+    color: var(--secondary);
+    background-color: var(--alternative-dark);
+    margin-left: var(--spacing-xs);
+    margin-top: var(--spacing-xs);
+    margin-right: var(--spacing-xs);
+    margin-bottom: var(--spacing-xs);
+}
+
+.card__text__1{
+    font-weight: 300;
+    font-size: var(--text-xs);
+    color: var(--accent);
+}
+
+.card__title__2{
+    font-weight: normal;
+    display: inline-block;
+    font-size: var(--text-sm);
+    color: var(--secondary);
+    background-color: var(--alternative-dark);
+    margin-left: var(--spacing-xs);
+    margin-top: var(--spacing-xs);
+    margin-right: var(--spacing-xs);
+    margin-bottom: var(--spacing-xs);
+}
+
+.card__text__2{
+    font-weight: 300;
+    font-size: var(--text-xs);
+    color: var(--accent);
+}
+
+.card__title__3{
+    font-weight: normal;
+    display: inline-block;
+    font-size: var(--text-sm);
+    color: var(--secondary);
+    background-color: var(--alternative-dark);
+    margin-left: var(--spacing-xs);
+    margin-top: var(--spacing-xs);
+    margin-right: var(--spacing-xs);
+    margin-bottom: var(--spacing-xs);
+}
+
+.card__text__3{
+    font-weight: 300;
+    font-size: var(--text-xs);
+    color: var(--accent);
+}
+
+    /* Nuestros Productos*/
+
+.title__np{
+    text-align: center;
+    background-color: var(--alternative);
+    font-size: var(--text-xs);
+    color: var(--secondary);
+}
+
+/* Nuestros Productos Cards*/
+
+#cards-np{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+    margin-left: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+    margin-right: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+
+.button{
+    justify-content: center;
+    background-color: var(--alternative);
+    color: var(--secondary);
+    align-items: center;
+}
+
+/* Exclusivos */
+
+.title__exc{
+    text-align: center;
+    background-color: var(--alternative);
+    font-size: var(--text-xs);
+    color: var(--secondary);
+}
+
+/* Exclusivos Cards*/
+
+#cards-exc{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+    margin-left: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+    margin-right: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
+}
+.button{
+    justify-content: center;
+    background-color: var(--alternative);
+    color: var(--secondary);
+    align-items: center;
+}
+
+/* Quienes Somos */
+
+/*.title__qs{
+    text-align: center;
+    background-color: var(--alternative);
+    font-size: var(--text-xs);
+    color: var(--secondary);
+} 
+
+.card__img__qs{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-lg);
+    margin-left: var(--spacing-xs);
+    margin-top: var(--spacing-xs);
+    margin-right: var(--spacing-xs);
+    margin-bottom: var(--spacing-xs);
+}*/
+
+.title__qs{
+    margin-top: var(--spacing-xs);
+    text-align: center;
+    background-color: var(--alternative);
+    font-size: var(--text-xs);
+    color: var(--secondary);
+    gap: var(--spacing-lg);
+    margin-left: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+    margin-right: var(--spacing-xl);
+    margin-bottom: var(--spacing-xs);
+}
+   
+.card__text__qs{
+    display: inline;
+    font-weight: 300;
+    font-size: var(--text-xs);
+    color: var(--accent);
+    text-align: left;
+}
+
+/* Contacto */
+#form{
+    display: flex;
+    max-width: 200px;
+    min-width: 200px;
+    margin:auto;
+	text-align:center;
+    font-size: var(--text-xs);
+}
+
+.contact__title{
+    margin-top: var(--spacing-xs);
+    text-align: center;
+    background-color: var(--alternative);
+    font-size: var(--text-xs);
+    color: var(--secondary);
+    gap: var(--spacing-lg);
+    margin-left: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+    margin-right: var(--spacing-xl);
+    margin-bottom: var(--spacing-xs);
+}
+
+.form__title{
+    text-align: center;
+    background-color: var(--primary);
+    font-size: var(--text-xs);
+    color: var(--alternative);
+    font-weight: 600;
+}
+
+.map__title{
+    text-align: center;
+    background-color: var(--primary);
+    font-size: var(--text-xs);
+    color: var(--alternative);
+    font-weight: 600;
+    gap: var(--spacing-lg);
+    margin-left: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+    margin-right: var(--spacing-xl);
+    margin-bottom: var(--spacing-xs);
+}
+
+.map{
+    display: flex;
+    max-width: 200px;
+    min-width: 200px;
+    margin:auto;
+	text-align:center;
+}
+
+.redes__title{
+    text-align: center;
+    align-items: center;
+    background-color: var(--primary);
+    font-size: var(--text-xs);
+    color: var(--alternative);
+    font-weight: 600;
+    gap: var(--spacing-lg);
+    margin-left: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+    margin-right: var(--spacing-xl);
+    margin-bottom: var(--spacing-xs);
+}
+
+.redes{
+    display: flex;
+    max-width: 200px;
+    min-width: 200px;
+    margin:auto;
+	text-align: center;
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--alternative);
+    padding: 0rem;
+    margin: 0.5rem;
+    text-align: right;
+}
+
+.footer__logo{
+    display: flex;
+    max-width: 5rem;
+    min-width: 5rem;
+    margin: var(--spacing-xs);
+    text-align: left center;
+}
+
+.footer a{
+    text-decoration: none;
+    color: var(--secondary);
+    display: inline;
+    padding: var(--spacing-xs);
+    font-size: var(--text-xs);}
+
+/* Responsive */
+@media (max-width: 320px){
+    .main-header__nav{
+        flex-direction: column;
+    }
+}
