@@ -5,38 +5,52 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <link rel= "stylesheet" href="../css/index.css">
     <script src='main.js'></script>
 </head>
 <body> 
-    <header class="main-header">
+    <!-- <header class="main-header">
         <img class="main-header__logo" src="../img/logo_proyecto.png" alt="logo" width="200px" height="150px">
-     <!-- titulo -->
-     <!-- <h1>1226 BEBIDAS</h1> -->
+     <h1>1226 BEBIDAS</h1> -->
      <section>
         <!-- menu -->
-        <nav class="main-header__nav">
-         <ul>
-             <li class="menu__items">
-                <a class="menu__link" href="../index.html">Home</a>
-            </li>
-            <li class="menu__items">
-                <a class="menu__link" href="./nuestros-Productos.html">Nuestros Productos</a>
-            </li>
-            <li class="menu__items">
-                <a class="menu__link" href="./exclusivos.html">Exclusivos</a>
-            </li>
-            <li class="menu__items">
-                <a class="menu__link" href="./quienes-Somos.html">Quienes Somos</a>
-            </li>
-            <li class="menu__items">
-                <a class="menu__link" href="./contacto.html">Contacto</a>
-            </li>  
-          </ul>
-        </nav>
-    </header>
+        <header class="main-header">
+          <nav class="main-header__nav container navbar navbar-expand-lg">
+              <div class="container-fluid align-intems-center">
+                  <a><img class="main-header__logo animate__animated animate__backInDown" src="../img/logo_proyecto.png" alt="logo" width="150px" height="150px">
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav menu">
+                      <li class="nav-item menu__items p-1">
+                         <a class="nav-link menu__link menu__link--active" href="../index.html">Home</a>
+                     </li>
+                     <li class="nav-item menu__items p-1">
+                         <a class="nav-link menu__link"  href="../pages/nuestros-Productos.html">Nuestros Productos</a>
+                     </li>
+                     <li class="nav-item menu__items p-1">
+                         <a class="nav-link menu__link" href="../pages/exclusivos.html">Exclusivos</a>
+                     </li>
+                     <li class="nav-item menu__items p-1">
+                         <a class="nav-link menu__link" href="../pages/quienes-Somos.html">Quienes Somos</a>
+                     </li>
+                     <li class="nav-item menu__items p-1">
+                         <a class="nav-link menu__link" href="../pages/contacto.html">Contacto</a>
+                     </li>
+                   </ul>
+                </div>
+              </div>
+            </nav>
+      </header>
     <!-- formulario -->
     <main class="container">
      <h1 class="contact__title">Formulario De Contacto</h1>
@@ -92,4 +106,5 @@
      <a class="footer__redes" href="https://www.instagram.com/coderhouse/">Instagram</a>
      <a class="footer__redes" href="https://www.facebook.com/Coderhouse/">Facebook</a>
    </footer>
+   <script src="../js/bootstrap.min.js"></script>
 </body>

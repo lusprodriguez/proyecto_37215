@@ -58,10 +58,11 @@ a{
 
 /* Helpers*/
 
-.container {
+ .container {
     margin: 0 auto;
     max-width: 1200px;
 }
+
 .flex-row{
     display: flex;
     flex-direction: row;
@@ -79,7 +80,7 @@ a{
     max-width: 200px;
     min-width: 200px;
     margin:auto;
-	text-align:center;
+	text-align: center;
 }
 
 /* Menu */
@@ -98,7 +99,7 @@ a{
     background-color: var(--alternative);
     color: var(--secondary);
     padding: var(--spacing-xs);
-    font-size: var(--text-xs);
+    font-size: var(--text-md);
 }
 
 .menu__link{
@@ -142,11 +143,10 @@ a{
 }
 
 .card__title__1{
-    font-weight: normal;
+    font-weight: bold;
     display: inline-block;
-    font-size: var(--text-sm);
-    color: var(--secondary);
-    background-color: var(--alternative-dark);
+    font-size: var(--text-lg);
+    color: var(--alternative);
     margin-left: var(--spacing-xs);
     margin-top: var(--spacing-xs);
     margin-right: var(--spacing-xs);
@@ -159,17 +159,16 @@ a{
 }
 
 .card__text__1{
-    font-weight: 300;
-    font-size: var(--text-xs);
+    font-weight: 700;
+    font-size: var(--text-md);
     color: var(--accent);
 }
 
 .card__title__2{
-    font-weight: normal;
+    font-weight: bold;
     display: inline-block;
-    font-size: var(--text-sm);
-    color: var(--secondary);
-    background-color: var(--alternative-dark);
+    font-size: var(--text-lg);
+    color: var(--alternative);
     margin-left: var(--spacing-xs);
     margin-top: var(--spacing-xs);
     margin-right: var(--spacing-xs);
@@ -182,17 +181,16 @@ a{
 }
 
 .card__text__2{
-    font-weight: 300;
-    font-size: var(--text-xs);
+    font-weight: 700;
+    font-size: var(--text-md);
     color: var(--accent);
 }
 
 .card__title__3{
-    font-weight: normal;
+    font-weight: bold;
     display: inline-block;
-    font-size: var(--text-sm);
-    color: var(--secondary);
-    background-color: var(--alternative-dark);
+    font-size: var(--text-lg);
+    color: var(--alternative);
     margin-left: var(--spacing-xs);
     margin-top: var(--spacing-xs);
     margin-right: var(--spacing-xs);
@@ -205,8 +203,8 @@ a{
 }
 
 .card__text__3{
-    font-weight: 300;
-    font-size: var(--text-xs);
+    font-weight: 700;
+    font-size: var(--text-md);
     color: var(--accent);
 }
 
@@ -215,7 +213,7 @@ a{
 .title__np{
     text-align: center;
     background-color: var(--alternative);
-    font-size: var(--text-xs);
+    font-size: var(--text-md);
     color: var(--secondary);
 }
 
@@ -244,7 +242,7 @@ a{
 .title__exc{
     text-align: center;
     background-color: var(--alternative);
-    font-size: var(--text-xs);
+    font-size: var(--text-md);
     color: var(--secondary);
 }
 
@@ -280,7 +278,7 @@ a{
     margin-top: var(--spacing-xs);
     text-align: center;
     background-color: var(--alternative);
-    font-size: var(--text-xs);
+    font-size: var(--text-md);
     color: var(--secondary);
     gap: var(--spacing-lg);
     margin-left: var(--spacing-xl);
@@ -311,7 +309,7 @@ a{
     margin-top: var(--spacing-xs);
     text-align: center;
     background-color: var(--alternative);
-    font-size: var(--text-xs);
+    font-size: var(--text-md);
     color: var(--secondary);
     gap: var(--spacing-lg);
     margin-left: var(--spacing-xl);
@@ -323,7 +321,7 @@ a{
 .form__title{
     text-align: center;
     background-color: var(--primary);
-    font-size: var(--text-xs);
+    font-size: var(--text-md);
     color: var(--alternative);
     font-weight: 600;
 }
@@ -331,7 +329,7 @@ a{
 .map__title{
     text-align: center;
     background-color: var(--primary);
-    font-size: var(--text-xs);
+    font-size: var(--text-md);
     color: var(--alternative);
     font-weight: 600;
     gap: var(--spacing-lg);
@@ -353,7 +351,7 @@ a{
     text-align: center;
     align-items: center;
     background-color: var(--primary);
-    font-size: var(--text-xs);
+    font-size: var(--text-md);
     color: var(--alternative);
     font-weight: 600;
     gap: var(--spacing-lg);
