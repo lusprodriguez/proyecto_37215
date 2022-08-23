@@ -1,0 +1,29 @@
+{
+  "name": "proyecto_37215",
+  "version": "1.0.0",
+  "description": "Proyecto para coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "node-sass --include-path scss scss/index.ccss css/translated.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lusprodriguez/proyecto_37215.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "SASS",
+    "BOOTSTRAP"
+  ],
+  "author": "Lu Spalla Rodriguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lusprodriguez/proyecto_37215/issues"
+  },
+  "homepage": "https://github.com/lusprodriguez/proyecto_37215#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
