@@ -1,0 +1,48 @@
+/*HEADER*/
+.main-header{
+    padding: 2rem;
+    background-color: $secondary;
+     &__logo{
+        display: flex;
+        max-width: 200px;
+        min-width: 200px;
+        margin:auto;
+        text-align: center;
+    }
+}
+
+     .main-header{
+    padding: 2rem;
+    background-color: $secondary;
+      &__logo{
+      display: flex;
+      max-width: 200px;
+      min-width: 200px;
+      margin:auto;
+	  text-align: center;
+    }
+}
+/* Menu */
+
+.main-header{
+    font-weight:normal;
+    text-align: right;
+     &__nav ul li{
+     display: inline;
+     text-align: right;
+     }
+     &__nav ul li a{
+     background-color: $alternative;
+     color: $secondary;
+     padding: $spacing-xs;
+     font-size: $text-md;
+    }
+    .menu__link{
+    transition: all .3s;
+     &:hover{
+     background-color: $secondary;
+     color: $alternative;
+    }
+}
+
+}

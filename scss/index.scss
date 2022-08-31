@@ -1,138 +1,21 @@
-/*HEADER*/
-.main-header{
-    padding: 2rem;
-    background-color: var(--secondary);
-    .main-header__logo{
-        display: flex;
-        max-width: 200px;
-        min-width: 200px;
-        margin:auto;
-        text-align: center;
-    }
-}
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,300;0,700;1,500&display=swap');
 
-.main-header{
-    padding: 2rem;
-    background-color: var(--secondary);
-      .main-header__logo{
-      display: flex;
-      max-width: 200px;
-      min-width: 200px;
-      margin:auto;
-	  text-align: center;
-    }
-}
-/* Menu */
+/*MISC*/
+@import "./misc/variables";
 
-.main-header{
-    font-weight:normal;
-    text-align: right;
-     .main-header__nav ul li{
-     display: inline;
-     text-align: right;
-     }
-    .main-header__nav ul li a{
-     background-color: var(--alternative);
-     color: var(--secondary);
-     padding: var(--spacing-xs);
-     font-size: var(--text-md);
-    }
-}
+@import "./misc/normalize";
 
-.menu__link{
-    transition: all .3s;
-     .menu__link:hover{
-     background-color: var(--secondary);
-     color: var(--alternative);
-    }
-}
+/*PARTIALS*/
+@import "./partials/footer";
 
-/* Cards */
+@import "./partials/header";
 
-#cards {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr;  
-    grid-gap: 2rem;
-    margin-top: var(--spacing-md);
-}
+/*VIEWS*/
+@import "./views/about";
 
-.card{
-    flex: 1 1 250px;
-     .card div{
-     padding: var(--spacing-xs);
-     text-align: center;
-     font-size: var(--text-md);
-    }
-}
+@import "./views/contact";
 
-
-
-.card__title__1{
-    font-weight: bold;
-    display: inline-block;
-    font-size: var(--text-lg);
-    color: var(--alternative);
-    margin-left: var(--spacing-xs);
-    margin-top: var(--spacing-xs);
-    margin-right: var(--spacing-xs);
-    margin-bottom: var(--spacing-xs);
-     .card__title__1:hover{
-     background-color: var(--secondary);
-     color: var(--alternative);
-    }
-
-     .card__text__1{
-     font-weight: 700;
-     font-size: var(--text-md);
-     color: var(--accent);
-    }
-}
-
-
-
-.card__title__2{
-    font-weight: bold;
-    display: inline-block;
-    font-size: var(--text-lg);
-    color: var(--alternative);
-    margin-left: var(--spacing-xs);
-    margin-top: var(--spacing-xs);
-    margin-right: var(--spacing-xs);
-    margin-bottom: var(--spacing-xs);
-     .card__title__2:hover{
-     background-color: var(--secondary);
-     color: var(--alternative);
-     }
-     .card__text__2{
-     font-weight: 700;
-     font-size: var(--text-md);
-     color: var(--accent);
-    }
-}
-
-.card__title__3{
-    font-weight: bold;
-    display: inline-block;
-    font-size: var(--text-lg);
-    color: var(--alternative);
-    margin-left: var(--spacing-xs);
-    margin-top: var(--spacing-xs);
-    margin-right: var(--spacing-xs);
-    margin-bottom: var(--spacing-xs);
-     .card__title__3:hover{
-     background-color: var(--secondary);
-     color: var(--alternative);
-    }
-     .card__text__3{
-     font-weight: 700;
-     font-size: var(--text-md);
-     color: var(--accent);
-    }
-}
-
-
-
-
+@import "./views/index";
 
 
 

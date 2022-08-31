@@ -1,0 +1,104 @@
+/* Menu */
+
+.main-header{
+    font-weight:normal;
+    text-align: right;
+     &__nav ul li{
+     display: inline;
+     text-align: right;
+     }
+     &__nav ul li a{
+     background-color: $alternative;
+     color: $secondary;
+     padding: $spacing-xs;
+     font-size: $text-md;
+    }
+    .menu__link{
+    transition: all .3s;
+     &:hover{
+     background-color: $secondary;
+     color: $alternative;
+    }
+}
+
+}
+
+/* Cards */
+
+#cards {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;  
+    grid-gap: 2rem;
+    margin-top: $spacing-md;
+}
+
+.card{
+    flex: 1 1 250px;
+     .card div{
+     padding: $spacing-xs;
+     text-align: center;
+     font-size: $text-md;
+    }
+}
+
+.card__title__1{
+    font-weight: bold;
+    display: inline-block;
+    font-size: $text-lg;
+    color: $alternative;
+    margin-left: $spacing-xs;
+    margin-top: $spacing-xs;
+    margin-right: $spacing-xs;
+    margin-bottom: $spacing-xs;
+     &:hover{
+     background-color: $secondary;
+     color: $alternative;
+    }
+
+     .card__text__1{
+     font-weight: 700;
+     font-size: $text-md;
+     color: $accent;
+    }
+}
+
+
+.card__title__2{
+    font-weight: bold;
+    display: inline-block;
+    font-size: $text-lg;
+    color: $alternative;
+    margin-left: $spacing-xs;
+    margin-top: $spacing-xs;
+    margin-right: $spacing-xs;
+    margin-bottom: $spacing-xs;
+     &:hover{
+     background-color: $secondary;
+     color: $alternative;
+     }
+     .card__text__2{
+     font-weight: 700;
+     font-size: $text-md;
+     color: $accent;
+    }
+}
+
+.card__title__3{
+    font-weight: bold;
+    display: inline-block;
+    font-size: $text-lg;
+    color: $alternative;
+    margin-left: $spacing-xs;
+    margin-top: $spacing-xs;
+    margin-right: $spacing-xs;
+    margin-bottom: $spacing-xs;
+     &:hover{
+     background-color: $secondary;
+     color: $alternative;
+    }
+     .card__text__3{
+     font-weight: 700;
+     font-size: $text-md;
+     color: $accent;
+    }
+}

@@ -1,0 +1,26 @@
+/* Footer */
+
+.footer{
+    background-color: $alternative;
+    padding: 0rem;
+    margin: 0.5rem;
+    text-align: right;
+    
+    &__logo{
+    display: flex;
+    max-width: 5rem;
+    min-width: 5rem;
+    margin: $spacing-xs;
+    text-align: left center;
+}
+ & a{
+    text-decoration: none;
+    color: $secondary;
+    display: inline;
+    padding: $spacing-xs;
+    font-size: $text-xs;
+}
+}
+
+
+
