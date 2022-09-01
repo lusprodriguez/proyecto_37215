@@ -26,7 +26,7 @@
 /* Cards */
 
 #cards {
-    display: grid;
+    display: flex;
     grid-template-columns: 2fr 2fr 2fr;  
     grid-gap: 2rem;
     margin-top: $spacing-md;
@@ -34,14 +34,14 @@
 
 .card{
     flex: 1 1 250px;
-     .card div{
+     & div{
      padding: $spacing-xs;
      text-align: center;
      font-size: $text-md;
     }
-}
+} 
 
-.card__title__1{
+ &title__1{
     font-weight: bold;
     display: inline-block;
     font-size: $text-lg;
@@ -55,7 +55,7 @@
      color: $alternative;
     }
 
-     .card__text__1{
+     &__text__1{
      font-weight: 700;
      font-size: $text-md;
      color: $accent;
@@ -76,12 +76,12 @@
      background-color: $secondary;
      color: $alternative;
      }
-     .card__text__2{
+     &__text__2{
      font-weight: 700;
      font-size: $text-md;
      color: $accent;
     }
-}
+} 
 
 .card__title__3{
     font-weight: bold;
@@ -96,7 +96,7 @@
      background-color: $secondary;
      color: $alternative;
     }
-     .card__text__3{
+     &__text__3{
      font-weight: 700;
      font-size: $text-md;
      color: $accent;
