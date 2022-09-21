@@ -21,7 +21,8 @@ body {
   background-color: #EBDFCD; }
 
 img {
-  width: 100%; }
+  width: 100%; 
+}
 
 ul {
   list-style-type: none; }
@@ -107,21 +108,58 @@ a {
       background-color: #EBDFCD;
       color: #5D0C1D; }
 
+/* Slider */
+.carousel-inner{
+  padding: 15rem!important;
+  padding-top: 8rem !important;
+  padding-right: 25rem !important;
+  padding-bottom: 8rem !important;
+  padding-left: 25rem !important;
+}
+
 /* Cards */
 #cards {
-  display: grid;
+  display: flex;
   grid-template-columns: 2fr 2fr 2fr;
   grid-gap: 2rem;
-  margin-top: 24px; }
+  margin-top: 24px;
+  border: none;
+ }
+
+.bg-transparent{
+  --bs-card-border-color: var(none);
+ }
+ 
+ .text{
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  color: #5D0C1D;
+ }
+
+ .cards{
+  font-size: 8rem;
+}
+
+.fw-normal{
+  font-size: 8rem;
+}
+
+.text-fw-normal{
+ font-size: 2.5rem;
+ font-weight: 100;
+ text-align: center;
+}
 
 .card {
   flex: 1 1 250px; }
   .card .card div {
     padding: 10px;
     text-align: center;
-    font-size: 20px; }
+    font-size: 20px; 
+  } 
 
-.card__title__1 {
+/*.card__title__1 {
   font-weight: bold;
   display: inline-block;
   font-size: 30px;
@@ -129,7 +167,8 @@ a {
   margin-left: 10px;
   margin-top: 10px;
   margin-right: 10px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+} */
   .card__title__1:hover {
     background-color: #EBDFCD;
     color: #5D0C1D; }
@@ -138,7 +177,7 @@ a {
     font-size: 20px;
     color: #000000; }
 
-.card__title__2 {
+/*.card__title__2 {
   font-weight: bold;
   display: inline-block;
   font-size: 30px;
@@ -153,9 +192,9 @@ a {
   .card__title__2 .card__text__2 {
     font-weight: 700;
     font-size: 20px;
-    color: #000000; }
+    color: #000000; }*/
 
-.card__title__3 {
+/*.card__title__3 {
   font-weight: bold;
   display: inline-block;
   font-size: 30px;
@@ -170,4 +209,16 @@ a {
   .card__title__3 .card__text__3 {
     font-weight: 700;
     font-size: 20px;
-    color: #000000; }
+    color: #000000; }*/
+
+  /*Nuestros Productos*/
+  .btn-lg{
+    background-color: #EBDFCD;
+  }
+
+  /* Quienes Somos/Nuestra Hitoria*/
+
+  .img-thumbnail{
+    max-width: 25%;
+}
+ 
